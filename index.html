@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- 用于展示LOGO的库 -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <!-- LOGO -->
+        <a href="#" class="logo">Protfolio.</a>
+
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <!-- --I 是用于动态展示的 -->
+            <a href="#" class="active item" style="--i: 1">Home</a>
+            <a href="#" class="item" style="--i: 2">About</a>
+            <a href="#" class="item" style="--i: 3">Skills</a>
+            <a href="#" class="item" style="--i: 4">Protfolio</a>
+            <a href="#" class="item" style="--i: 5">Contact</a>
+        </nav>
+    </header>
+
+    <!-- 主页面 -->
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello,It's me</h3>
+            <h1>Call me Panzhuo</h1>
+            <h3>And I'm a <span class="mutiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Nemo amet saepe id doloremque pariatur maxime est quis, 
+            </p>
+            <div class="social-media">
+                <a href="#" style="--i: 7"> <i class="bx bxl-tiktok"></i></a>
+                <a href="#" style="--i: 8"> <i class="bx bxl-facebook-circle"></i></a>
+                <a href="#" style="--i: 9"> <i class="bx bxl-google"></i></a>
+                <a href="#" style="--i: 10"> <i class="bx bxl-linkedin-square"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="0008.jpg" alt=""/>
+        </div>
+    </section>
+    <!-- 需要先关联别人的JS库、再关联自己的JS库 -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
