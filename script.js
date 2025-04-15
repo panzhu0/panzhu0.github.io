@@ -12,9 +12,9 @@ for(let i=0;i<navbarItem.length;i++){
 
 // 实现打字机效果
 var typed = new Typed(".mutiple-text",{
-    strings:['Backend Developer','BiliBili Uploader','Tiktok(抖音) Uploader','MORE'],
-    typeSpeed:100,
+    strings:['Backend Developer','BiliBili Uploader','Tiktok(抖音) Uploader','More ...'],
+    typeSpeed:35,
     backSpeed:50,
-    backDelay:1000,
+    backDelay:1500,
     loop:true
 })
